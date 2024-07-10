@@ -1,0 +1,15 @@
+				0 que são APIs, APIs HTTP e APIs HTTP REST
+		
+		Toda aplicação, ela tem uma interface, é pra que serve essa
+		interface? para interagir com a aplicação, para usa-la.
+		A interface por exemplo é a tela do nosso celular.
+		
+		APIs REST e APIs HTTP são produtos da API RESTful. 
+		As APIs REST são compatíveis com mais recursos do 
+		que as APIs HTTP, enquanto as APIs HTTP são projetadas 
+		com recursos mínimos para que possam ser oferecidas 
+		por um preço mais baixo.
+		
+		APIs REST são independentes da tecnologia usada. 
+		Você pode escrever aplicações de cliente e servidor 
+		em várias linguagens de programação sem afetar o design da API.
