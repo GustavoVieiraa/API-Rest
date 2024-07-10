@@ -1,0 +1,13 @@
+				Comunicação HTTP
+
+		Vamos detalhar um pouco mais como funciona
+		está comunicação usando o Protocolo HTTP.
+		Lembrando que API é a interface, HTTP é o Protocolo
+		e REST é o padrão que vamos utilizar para definir
+		nossos end-points.
+		Aqui nessa comunicação podemos pensar que trabalhamos:
+		
+			-> uma chamada -> uma resposta.
+			
+		O HTTP é um protocolo sem estado, ele não tem contexto
+		de chamadas, isso é gerenciado pelo Client ou Server.
