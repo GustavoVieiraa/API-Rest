@@ -1,0 +1,20 @@
+					Componentes da comunicação HTTP
+			
+			Como funcionam os componentes da comunicação do
+			protocolo HTTP?
+			
+			1° componente: URL -> Uniform Resource Locator, 
+			que significa localizador uniforme de recursos,
+			que define onde vamos encontrar algo.
+			
+			2° componente: Método (method) -> é usado para definir
+			o que necessita e vai ser usado no servidor,
+			por exemplo um Get, Post.
+			
+			3° componente: Corpo (body) -> Esse corpo sempre tem
+			um formato a ser seguido para o cliente. Esse trafego
+			normalmente acontece com dados em texto. O formato
+			principal utilizado hoje em dia é o JSON.
+			
+			4° componente: Cabeçalho (header) -> Eles levam informações
+			relativas a requisição e a resposta.
