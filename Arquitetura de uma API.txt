@@ -1,0 +1,13 @@
+					Arquitetura de uma API
+					
+		Quando pensamos em arquitetura, pensamos em 
+		como construir algo que é pedido, dentro 
+		das restrições que são colocadas, e aplicar
+		as técnicas que a gente conhece, para fazer
+		que aquela solução atenda de melhor maneira,
+		a solicitação conforme ela precisa.
+		
+		Mas, pensando na API, ela é uma interface
+		que fica ao lado do servidor, ela tem que
+		servir como um encapsulamento para regra
+		de negocio.
