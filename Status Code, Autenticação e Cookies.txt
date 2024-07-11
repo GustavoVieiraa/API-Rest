@@ -1,0 +1,21 @@
+						Status Code, Autenticação e Cookies
+						
+			Status Code:
+				
+				2xx -> Código de Sucesso
+				
+				3xx -> Redirecionamento
+				
+				4xx -> Erros de Cliente
+				
+				5xx -> Erros de Servidor
+				
+			Autenticação:
+				
+				JWT - Simples e fácil de utilizar.
+				
+			Cookies (são informações que ficam gravadas no Client):
+				
+				Formato Cookie
+				
+				Campos disponíveis: lastVisit, preferences, sid
