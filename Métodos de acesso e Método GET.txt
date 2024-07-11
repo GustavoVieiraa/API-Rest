@@ -1,0 +1,27 @@
+						Métodos de acesso e Método GET
+			
+			Requisição:
+				
+				GET /clientes/12 HTTP 1.1
+				Host: api.empresay.com.br
+				Authorizataion: 1234
+				Accept: Application/json
+				
+			Resposta: 
+				
+				HTTP/1.1 200 OK
+				
+				Date: Sun, 10 December 2022, 11:12:13 GMT
+				Content-type: Application/json
+				Content-lenght: 36
+				Last-Modified: Sun, 10 December 2022, 11:12:13 GMT
+				
+				{"nome": "Empresa Doze", "id": 12, "resposavel": "Jose Silva"}
+				
+				
+			Métodos:
+			
+				-> GET: Obter
+				-> POST: Criar
+				-> PUT / PATCH: Efetuar Alteração
+				-> Delete: Excluir
