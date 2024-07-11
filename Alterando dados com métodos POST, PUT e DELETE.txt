@@ -1,0 +1,82 @@
+				Alterando dados com métodos POST, PUT e DELETE
+			
+		Utilizamos o POST para inserir dados:
+		
+		Ex.
+			
+		POST /pedidos HTTP 1.1
+		Host: api.empresay.com.br
+		Content-Type: application/json
+		Authorization: 1234
+		Accept: application/json
+		
+		{
+			"itens": 
+			[
+				{"item": "banana", "quantidade": 10, "tipo_quantidade": "unidade"},
+				{"item": "presunto", "quantidade": 1,6, "tipo_quantidade": "quilo"},
+			]
+		}
+		
+		HTTP/1.1 201 Created
+		
+		Date: Sun, 10 December 2022, 11:12:13 GMT
+		Content-type: application/json
+		Content-length: 132
+		Last-Modified: Sun, 10 December 2022, 11:12:13 GMT
+		
+		{
+			"status": "ok",
+			"pedido": {
+				"identificacao": 3843,
+				"recebido": true,
+				"data_entrega": "22/12/23"
+			}
+		}
+		
+		Utilizamos o PUT para atualizar dados:
+		ex.
+		
+		PUT /pedidos HTTP 1.1
+		Host: api.empresay.com.br
+		Content-Type: application/json
+		Authorization: 1234
+		Accept: application/json
+		
+		{
+			"itens": 
+			[
+				{"item": "banana", "quantidade": 10, "tipo_quantidade": "unidade"},
+				{"item": "presunto", "quantidade": 1,6, "tipo_quantidade": "quilo"}
+			]
+		}
+		
+		HTTP/1.1 200 OK
+		
+		Date: Sun, 10 December 2022, 11:12:13 GMT
+		Content-type: application/json
+		Content-length: 41
+		Last-Modified: Sun, 10 December 2022, 11:12:13 GMT
+		
+		{
+			"status": "ok",
+		}
+		
+		
+		Utilizamos o DELETE para remover dados:
+		ex.
+		
+		DELETE /clientes/12 HTTP 1.1
+		Host: api.empresay.com.br
+		Content-Type: application/json
+		Authorization: 1234
+		Accept: application/json
+		
+		HTTP/1.1 200 OK
+		
+		Date: Sun, 10 December 2022, 11:12:13 GMT
+		Content-type: application/json
+		Content-length: 36
+		Last-Modified: Sun, 10 December 2022, 11:12:13 GMT
+		
+		{"status": "ok"}
